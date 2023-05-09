@@ -206,7 +206,7 @@ def main(input_path, output_path):
     img_name = input_path.split('/')[-1].split('.')[0]
     out_file = open(f'{output_path}/{img_name}.txt', "w")
     print(f"Processing new image {img_name}...")
-    img = io.imread(input_path)
+    img = io.imread(input_path,plugin='matplotlib')
     img = gray_img(img)
     horizontal = IsHorizontal(img)
     if horizontal == False:
