@@ -1,0 +1,54 @@
+gmn2midi, Version 1.0
+(c) 1998 by Ludger Martin and Holger H. Hoos 
+
+gmn2midi is a GUIDO to MIDI converter based on the GUIDO/NoteAbility parser 
+interface. It concerts files from the GUIDO Music Notation Format
+into the MIDI format. For more information on GUIDO Music Notation,
+please visit the GUIDO Music Notation Page at:
+  http://www.informatik.tu-darmstadt.de/AFS/GUIDO
+
+To call gmn2midi use the syntax
+  gmn2midi [options] <filename>
+or
+  gmn2midi [options] <filename>.gmn
+
+To get information on all possible options, type 
+  gmn2midi
+
+By default, gmn2midi reads the configuration file "gmn2midi.cfg". This file
+may contain an arbitrary number of command line options supported by gmn2midi. 
+Each option must start in a new line. Comment lines can be specified by 
+using % as the fist character, this can be easily used to comment out options
+from the configuration file.
+
+Updates and future versions of this program will be made available 
+on the GUIDO Music Notation Page at:
+  http://www.informatik.tu-darmstadt.de/AFS/GUIDO
+
+If you want to be kept up-to-date on GUIDO and GUIDO-related developments,
+including updates and new versions of this software, please join 
+the GUIDO Mailing List (for instructions, see
+http://www.informatik.tu-darmstadt.de/AFS/GUIDO/guidomail.html).
+
+If you have feedback or in case you find any errors, please contact
+Ludger Martin (lumartin@vlsi.informatik.tu-darmstadt.de) or the GUIDO
+Development team (guido@informatik.tu-darmstadt.de).
+
+---
+Copyright and Disclaimer
+
+gmn2midi is public domain software. This program and its sources can 
+and should be used for arbitrary scientific, educational, or commercial 
+purposes. However, it remains the intellectual property of the authors.
+It is our wish that every publicly available software using parts of this
+program should be brought to our attention. 
+
+We do not guarantee or imply that this software works satisfactory or
+error-free. We decline any responsibity for possible damage which might 
+occur while or as a consequence of using this software. 
+
+Any form of commercial redistribution, including by use of shareware 
+bundles or web sites, requires prior written permission by the authors
+(however, when asked, we intend to generally allow and suppurt such 
+redistribution).
+

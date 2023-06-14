@@ -1,0 +1,12 @@
+% gordon jacob, basson concerto, 2 mvmnt, solo-basson, mm1-2
+% one voice; grace notes and meter-change
+
+{ [\title<"II"> \tempo<"Adagio">
+  \staff<1> \clef<"tenor"> \key<-5>
+  \meter<"4/4"> \i<"p"> \i<"espress">
+  \sl(h&0/8 f1 d&2/4)
+  \grace(c/16 d&) \sl(c/8 h&1 c2 d&)
+ | \meter<"5/4">
+  \sl(h&0/8 f1 d&2/8. c/32 d& e&/8 d&)
+  \grace(c/16 d&) \sl(c/8 h&1 c2 \grace(e&) d&)
+  ] }

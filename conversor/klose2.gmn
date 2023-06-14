@@ -1,0 +1,14 @@
+% klose II, p.52 
+% 2+1 voices, 2 staves; dynamic markings in extra voice
+
+{ [\title<"No.3"> \tempo<"Andantino">
+  \staff<1> \clef<"g"> \key<-1> \meter<"6/8">
+  \sl(a1/8 h& c2) \sl(f1/4 f2/8)
+  \sl(\tie(e/8 e/18) g f e f g)
+  h&1/8 ],
+[ \staff<2> \clef<"g">  \key<-1> \meter<"6/8">
+  f1/8 _ _ _/4 a/8
+  \sl(h&/4. g/8) ],
+[ \i<"dolce"> _/8 \cresc(_*5/8)
+  \dim(_*4/8)]
+}

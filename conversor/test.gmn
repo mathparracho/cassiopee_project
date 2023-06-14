@@ -1,0 +1,14 @@
+% Test with some ornaments
+%[ e1/4 \turn({e,f,d}) e/2 \mord<16>({c,d}) c/2 \trill({e,f}) e/2 \trem(c) \stacc(a) \accent(c) \marcato(d) \fermata (f)]
+%
+% Riterdando and accelerando
+%[\tempo<"","1/4=240"> c c \rit<"","1/4=120">(d e f g a h ) c2  \accel<"","1/4=240">(h1 a g f e d ) c]
+%
+% Cescendo and Decescendo
+%[ \i<"ff",1.0> c \dimBegin d e f g a h \dimEnd<"dim",0.1>c2 \crescBegin h1 a g f e d \crescEnd<"cres",1.0> c]
+%
+% \alter Tag
+%{[c \alter<0.1> c \alter<0.2> c \alter<0.3> c],[c0 \alter<0.1> c \alter<0.2> c \alter<0.3> c]}
+%
+% An Accord
+{[c1/4],[e1/4],[g1/4]}
